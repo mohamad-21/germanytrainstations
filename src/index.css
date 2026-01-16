@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --background-color: #0e0f10;
+  --text-color: #fff;
+  --primary-color: #2b4a9f;
+  color-scheme: dark;
+}
+
+@theme {
+  --color-background: var(--background-color);
+  --color-foreground: var(--text-color);
+  --color-primary: var(--primary-color);
+}
+
+.leaflet-control-attribution {
+  display: none;
+}

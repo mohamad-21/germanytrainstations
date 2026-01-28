@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { Station } from "../types"
 
-const API_URL = "http://localhost:5173/stations.json"
+const API_URL = "https://classy-germanytrainstations.netlify.app/"
 
 export function useStations() {
 	const [stations, setStations] = useState<Station[]>([])
